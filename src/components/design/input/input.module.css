@@ -1,0 +1,42 @@
+
+.section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 10px);
+}
+
+.section div{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 75px);
+}
+.section div input{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name{
+    margin: 0 10px;
+}
+
+.value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 70px;
+    border: solid 1px gray;
+}
+
+.input{
+    display: flex;
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    margin: 4px;
+}
+
+.value:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+
+.con{
+    width: 100%;
+    display: flex;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 255;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
